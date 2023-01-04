@@ -1,15 +1,18 @@
 const number = prompt('write a number');
-if (number > 0) {
-    alert(1) ;}
-  if (number < 0) {
-    alert(-1);
-  }
-if (number === 0) {
-    alert(0);
-  }
- else {
-    alert(error );
+if(number){
+    if (number > 0) {
+        alert(1) ;
+    } else if(number < 0){
+        alert(-1);
+    } else if (number == 0) {
+        alert(0);
+    } else {
+        alert('это строка, а не число error')
+    }
+} else {
+    alert('вы не ввели число error')
 }
+
 
 /* const number = prompt('write a number');
 if (number > 0) {
@@ -20,9 +23,9 @@ if (number > 0) {
 if (number === 0) {
     alert(0);
   }
- else if (number = string) {
+ else if (typeof number == "string") {
     alert(error );
 }
- else if (number = null) {
+ else if (number == null) {
     alert(error );
 }
