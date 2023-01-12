@@ -7,10 +7,11 @@ if(number){
     } else if (number == 0) {
         alert(0);
     } else {
-        alert('это строка, а не число error')
+        alert('это строка, а не число error');
     }
-} else {
-    alert('вы не ввели число error')
+}
+else {
+    alert('вы не ввели число error');
 }
 
 
