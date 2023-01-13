@@ -1,0 +1,8 @@
+let name=prompt('Please enter your name');
+alert(`Hello ${name}`);
+let confirmAction = confirm("Do you know anything about JS?",);
+        if (confirmAction) {
+          alert("You’re right");
+        } else {
+          alert("You can start learning right now");
+        }
