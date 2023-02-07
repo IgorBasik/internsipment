@@ -20,9 +20,9 @@ while (i < numbers.length) {
   console.log(i) //индекс
   i = i + 1
 }
-//Second
+//Second for - in  // используется только для массивов с объектами
 let numbers = [1: number, 2: number, a: string, 4: number]
-for (let property in object) {
+for (let property in object) { 
   console.log(property) //имя свойства
   console.log(numbers[property]) //значение свойства
 }
