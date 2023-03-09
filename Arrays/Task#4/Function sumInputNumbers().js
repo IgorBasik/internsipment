@@ -1,4 +1,4 @@
-function sumInputNumbers() {
+//function sumInputNumbers() {
     const numbers = []; // create an empty array to store input numbers
     let input;  
     // loop until user cancels or enters a non-numeric value
@@ -14,6 +14,6 @@ function sumInputNumbers() {
     // compute the sum of the array elements
     const sum = numbers.reduce((acc, val) => acc + val, 0);
   
-    return sum;
-  }
-  //console.log(sum);
+    //return sum;
+  //}
+  console.log(sum);
