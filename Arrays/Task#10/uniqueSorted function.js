@@ -3,5 +3,13 @@ function uniqueSorted(sort) {
   const uniqSet = new Set(numbers);
   return Array.from(uniqSet);
 }
-
-console.log(uniqueSorted(numbers));
+numbers = uniqueSorted(numbers).sort();
+console.log(numbers);
+/*let new_array = [];
+numbers.forEach(item =>{
+    if(!new_array.includes(item)){
+        new_array.push(item)
+    }
+})
+new_array.sort();
+console.log('new_array', new_array)*/
